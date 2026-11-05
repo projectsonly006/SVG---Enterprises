@@ -1685,26 +1685,18 @@ img {
     padding: 10px 15px;
   }
 }
-@media (max-width: 1200px) {
-  .wpo-site-header .header-right .close-form .theme-btn-s2 {
-    padding: 12px 17px;
-  }
-}
-@media (max-width: 991px) {
-  .wpo-site-header .header-right .close-form .theme-btn-s2 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 767px) {
-  .wpo-site-header .header-right .close-form .theme-btn-s2 {
-    padding: 12px;
-    border-radius: 50%;
-  }
-}
 
 @media (max-width: 767px) {
   .wpo-site-header .header-right .close-form .theme-btn-s2 span {
     display: none;
+  }
+
+  .wpo-site-header .header-right .close-form .theme-btn-s2 {
+    border-radius: 5px;
+  }
+
+  .image-wrapper {
+    right: 20px;
   }
 }
 .wpo-site-header .header-right .close-form .theme-btn-s2 i {
