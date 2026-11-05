@@ -1026,7 +1026,7 @@ img {
 }
 @media (max-width: 575px) {
   .breadcumb-area .breadcumb-wrap h2 {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 28px;
   }
 }
