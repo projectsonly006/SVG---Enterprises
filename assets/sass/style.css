@@ -4675,7 +4675,7 @@ img {
 
 .float-img {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 20px;
   animation: float 2s ease-in-out infinite;
   z-index: -1;
