@@ -2324,7 +2324,7 @@ img {
 }
 @media (max-width: 575px) {
   .wpo-hero-section {
-    margin-left: 30px;
+    margin-left: 0px;
     padding: 70px 0;
   }
 }
