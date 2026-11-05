@@ -1436,6 +1436,29 @@ img {
 --------------------------------------------------------------*/
 /* 2.1 navigation */
 
+/* new header in js */
+/* .wpo-site-header .navigation {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.wpo-site-header .navigation.nav-up {
+  transform: translateY(-100%);
+}
+
+.wpo-site-header .navigation.nav-down {
+  transform: translateY(0);
+} */
+
 .wpo-site-header .navigation {
   background-color: #fff;
   margin-bottom: 0;
@@ -2305,13 +2328,13 @@ img {
 }
 @media (max-width: 1199px) {
   .wpo-hero-section {
-    margin-left: 60px;
+    margin-left: 0px;
   }
 }
 @media (max-width: 991px) {
   .wpo-hero-section {
     height: auto;
-    padding: 100px 0;
+    padding: 0;
   }
 }
 @media (max-width: 575px) {
@@ -3999,6 +4022,20 @@ img {
   gap: 20px;
 }
 
+.wpo-service-section
+  .service-wrap
+  .service-items
+  .service-expanded
+  .service-content
+  p {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  max-width: 333px;
+}
+
 @media (max-width: 991px) {
   .wpo-service-section .service-wrap {
     flex-direction: column;
@@ -4079,8 +4116,17 @@ img {
     .service-default
     .service-bg
     h3 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 50px;
+  }
+
+  .wpo-service-section
+    .service-wrap
+    .service-items
+    .service-expanded
+    .service-content
+    p {
+    max-width: 600px;
   }
 }
 @media (max-width: 575px) {
@@ -4169,6 +4215,7 @@ img {
   left: 40px;
   width: 400px;
 }
+
 @media (max-width: 1399px) {
   .wpo-service-section
     .service-wrap
@@ -4243,19 +4290,7 @@ img {
   a {
   color: #3860d2;
 }
-.wpo-service-section
-  .service-wrap
-  .service-items
-  .service-expanded
-  .service-content
-  p {
-  margin: 0;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28.8px;
-  max-width: 333px;
-}
+
 @media (max-width: 575px) {
   .wpo-service-section
     .service-wrap

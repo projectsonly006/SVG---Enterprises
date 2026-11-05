@@ -612,10 +612,31 @@
       .removeClass("original");
   }
 
-  // clone home style 1 navigation for sticky menu
   if ($(".wpo-site-header .navigation").length) {
     cloneNavForSticyMenu($(".wpo-site-header .navigation"), "sticky-header");
   }
+
+  // new sticky header
+  // $(document).ready(function () {
+  //   var lastScrollTop = 0;
+  //   var header = $(".wpo-site-header .navigation");
+
+  //   $(window).on("scroll", function () {
+  //     var currentScroll = $(this).scrollTop();
+
+  //     if (currentScroll <= 700) {
+  //       header.removeClass("nav-up nav-down");
+  //     } else if (currentScroll > lastScrollTop) {
+
+  //       header.removeClass("nav-down").addClass("nav-up");
+  //     } else {
+
+  //       header.removeClass("nav-up").addClass("nav-down");
+  //     }
+
+  //     lastScrollTop = currentScroll;
+  //   });
+  // });
 
   var lastScrollTop = "";
 
